@@ -1,0 +1,92 @@
+/* Styles: */
+/* Main: */
+/* About Us: */
+.main__about-us
+{
+    min-height: 600rem;
+    overflow: hidden;
+    display: flex;
+}
+
+/* Hero: */
+.main__about-us__hero
+{
+    padding: 20rem;
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color-senary);
+}
+
+.main__about-us__hero div
+{
+    padding: 20rem 20rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Sushi-6: */
+.main__about-us__hero__sushi-6
+{
+    border-bottom: 2rem solid var(--color-secondary);
+    background-image: url("../../assets/about-us_background-1.png");
+}
+
+.main__about-us__hero__sushi-6 img
+{
+    width: 200rem;
+    height: 200rem;
+}
+
+/* Button: */
+.main__about-us__hero__button
+{
+    border: 0rem;
+    border-radius: 40rem 0rem 0rem 40rem;
+    outline: 0rem;
+    padding: 10rem 20rem;
+    min-height: 60rem;
+    right: 0rem;
+    position: absolute;
+    background: var(--color-quinary);
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    color: var(--color-senary);
+    line-height: 20rem;
+    cursor: pointer;
+}
+
+.main__about-us__hero__button img
+{
+    margin-left: 20rem;
+    object-fit: contain;
+}
+
+/* Content: */
+.main__about-us__content
+{
+    padding: 20rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Sushi-7: */
+.main__about-us__hero__sushi-7
+{
+    background-image: url("../../assets/about-us_background-2.png");
+}
+  
+.main__about-us__hero__sushi-7 img
+{
+    width: 200rem;
+    height: 200rem;
+}

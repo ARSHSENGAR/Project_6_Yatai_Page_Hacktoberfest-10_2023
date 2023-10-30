@@ -1,0 +1,70 @@
+/* Styles: */
+/* Footer: */
+.footer
+{
+    padding: 20rem 20rem;
+    width: 100%;
+    overflow: hidden;
+    background: var(--color-senary);
+    flex-wrap: wrap;
+    gap: 20rem;
+}
+
+/* Logo: */
+.footer__logo
+{
+    font-size: 32rem;
+    font-weight: 400;
+    font-family: var(--shojumaru);
+    text-transform: uppercase;
+    color: var(--color-quinary);
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+.footer__logo span
+{
+    color: var(--color-primary);
+    opacity: 0.80;
+}
+
+/* Menu: */
+.footer ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100rem;
+    list-style: none;
+}
+
+.footer ul:last-child
+{
+    gap: 20rem;
+}
+
+.footer__menu li
+{
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    text-transform: uppercase;
+    color: var(--color-quinary);
+    cursor: pointer;
+}
+
+/* Social: */
+.footer__social li
+{
+    border-radius: 100%;
+    width: 40rem;
+    height: 40rem;
+    background-color: var(--color-primary);
+}
+
+.footer__social li img
+{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}

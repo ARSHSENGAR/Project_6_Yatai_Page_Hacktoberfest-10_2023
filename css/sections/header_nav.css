@@ -1,0 +1,79 @@
+/* Styles: */
+/* Header: */
+/* Navigator: */
+.header__nav
+{
+    overflow: hidden;
+    display: flex;
+}
+
+/* Logo: */
+.header__nav__logo
+{
+    padding: 10rem;
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+.header__nav__logo h1
+{
+    padding: 0rem 100rem;
+    font-size: 32rem;
+    font-weight: 400;
+    font-family: var(--shojumaru);
+    text-transform: uppercase;
+    color: var(--color-senary);
+    opacity: 0.80;
+}
+
+/* Overlay: */
+.header__nav__logo-overlay
+{
+    width: 100%;
+    position: absolute;
+    inset: 0rem;
+    background-color: var(--color-primary);
+    z-index: -1;
+}
+
+/* Menu: */
+/* Screen: Desktop and Mobile: */
+.header__nav__menu-desktop,
+.header__nav__menu-mobile
+{
+    padding: 20rem;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    gap: 100rem;
+    list-style: none;
+}
+
+/* Screen: Desktop: */
+.header__nav__menu-desktop li
+{
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    text-transform: uppercase;
+    color: var(--color-quinary);
+    line-height: 20rem;
+    cursor: pointer;
+}
+
+.header__nav__menu-desktop li img
+{
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+}
+
+/* Screen: Mobile */
+.header__nav__menu-mobile
+{
+    position: relative;
+    display: none;
+    gap: 20rem;
+}

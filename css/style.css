@@ -1,0 +1,479 @@
+/* Imported Fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Shojumaru&display=swap');
+
+/* Imported Styles: */
+@import url("sections/header_nav.css");
+@import url("sections/main_home.css");
+@import url("sections/main_menu_popular-foods.css");
+@import url("sections/main_menu_trends.css");
+@import url("sections/main_about-us.css");
+@import url("sections/main_join-us.css");
+@import url("sections/footer.css");
+
+/* Variables: */
+:root
+{
+    /* Fonts: */
+    --shojumaru: "Shojumaru", sans-serif;
+    --macondo: "Macondo", sans-serif;
+
+    /* Colors: */
+    --color-primary: #F2837A;
+    --color-secondary: #FED3C3;
+    --color-tertiary: #572410;
+    --color-quaternary: #BE6D52;
+    --color-quinary: #49463D;
+    --color-senary: #FCF7F3;
+    /* --color-septenary: ; */
+    /* --color-octonary: ; */
+    /* --color-nonary: ; */
+    /* --color-denary: ; */
+}
+
+/* Styles: */
+/* Page: */
+html
+{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 1px;
+}
+
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Body: */
+body
+{
+    margin: 0rem auto;
+    padding: 0rem auto;
+    max-width: 1080rem;
+    background-color: var(--color-secondary);
+}
+
+/* Elements: */
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Classes: */
+/* Flex: */
+.flex-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Text: */
+.title
+{
+    margin: 20rem 0rem;
+    font-size: 64rem;
+    font-weight: 600;
+    font-family: var(--shojumaru);
+    color: var(--color-tertiary);
+}
+
+.subtitle
+{
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    color: var(--color-quaternary);
+    opacity: 0.80;
+    letter-spacing: -0.02rem;
+}
+
+.description
+{
+    margin: 20rem 0rem;
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    color: var(--color-quinary);
+    opacity: 0.80;
+    line-height: 20rem;
+    letter-spacing: -0.02em;
+}
+
+/* Elements: */
+.scrollbar-hide::-webkit-scrollbar
+{
+    display: none;
+}
+
+.scrollbar-hide
+{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Medias: */
+/* Sections: */
+/* Navigator: */
+/* Screens: */
+/* Tablet: */
+@media screen and (max-width: 960px)
+{
+    .header__nav
+    {
+        background: var(--color-primary);
+    }
+
+    .header__nav__menu-desktop
+    {
+        display: none;
+    }
+
+    .header__nav__menu-mobile
+    {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+/* Mobile: */
+@media screen and (max-width: 569px)
+{
+    .header__nav__logo
+    {
+        padding: 8rem;
+    }
+}
+
+/* Menu: */
+/* Home: */
+/* Screens: */
+/* Desktop: */
+@media screen and (max-width: 1024px)
+{
+    .main__home
+    {
+        flex-direction: column;
+    }
+
+    .main__home__hero img
+    {
+        width: 100%;
+    }
+
+    .main__home__hero h3
+    {
+        font-size: 200rem;
+        line-height: 204rem;
+    }
+}
+
+/* Tablet: */
+@media screen and (max-width: 960px)
+{
+    .main__home__hero h3
+    {
+        font-size: 160rem;
+        line-height: 164rem;
+    }
+}
+
+/* Mobile: */
+@media screen and (max-width: 569px)
+{
+    .main__home__hero h3
+    {
+        font-size: 40rem;
+        line-height: 44rem;
+    }
+
+    .main__home__content__info
+    {
+        padding: 8rem;
+    }
+
+    .main__home__content__info h2
+    {
+        margin: 10rem 0rem;
+        padding-left: 40rem;
+        font-size: 32rem;
+    }
+
+    .main__home__content__info p
+    {
+        margin: 10rem 0rem;
+        padding-left: 40rem;
+    }
+
+    .main__home__content__buttons
+    {
+        margin: 10rem 0rem;
+        padding-left: 20rem;
+        flex-direction: column;
+    }
+
+    .main__home__content__testimonial
+    {
+        padding: 10rem;
+    }
+
+    .main__home__content__testimonial__review
+    {
+        border-top: 2rem solid rgba(0, 0, 0, 0.20);
+        border-left: none;
+        padding-top: 20rem;
+        padding-left: none;
+    }
+}
+
+/* Popular Foods: */
+/* Screens: */
+/* Mobile: */
+@media screen and (max-width: 569px)
+{
+    .main__menu__popular-foods
+    {
+        padding: 8rem;
+    }
+
+    .main__menu__popular-foods__filter__button
+    {
+        padding: 10rem;
+        gap: 10rem;
+        font-size: 8rem;
+        font-weight: 100;
+        line-height: 12rem;
+    }
+
+    .main__menu__popular-foods__filter__button img
+    {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .main__menu__popular-foods__catalogue__card,
+    .main__menu__popular-foods__catalogue__card.card-active
+    {
+        min-width: 100%;
+    }
+}
+
+/* Trends: */
+/* Screens: */
+/* Desktop: */
+@media screen and (max-width: 1024px)
+{
+    .main__menu__trends__foods
+    {
+        flex-direction: column;
+    }
+
+    .main__menu__trends__drinks
+    {
+        flex-direction: column-reverse;
+    }
+
+    .main__menu__trends__list
+    {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .main__menu__trends__hero
+    {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main__menu__trends__discover
+    {
+        display: none;
+    }
+
+    .main__menu__trends__arrow
+    {
+        display: none;
+    }
+}
+
+/* Mobile: */
+@media screen and (max-width: 569px)
+{
+    .main__menu__trends__hero img
+    {
+        width: 50%;
+        height: 50%;
+    }
+
+    .main__menu__trends__content
+    {
+        padding: 8rem;
+    }
+}
+
+/* About Us: */
+/* Screens: */
+/* Desktop: */
+@media screen and (max-width: 1024px)
+{
+    .main__about-us
+    {
+        flex-direction: column;
+    }
+
+    .main__about-us__hero
+    {
+        flex-direction: row;
+    }
+
+    .main__about-us__hero__sushi-6
+    {
+        border-right: 2rem solid var(--color-secondary);
+        border-bottom: none;
+    }
+
+    .main__about-us__hero__button
+    {
+        display: none;
+    }
+}
+
+/* Tablet: */
+@media screen and (max-width: 960px)
+{
+    .main__about-us__hero
+    {
+        flex-direction: column;
+    }
+
+    .main__about-us__hero__sushi-6
+    {
+        border-right: none;
+        border-bottom: 2rem solid var(--color-secondary);
+    }
+
+    .main__about-us__hero__button
+    {
+        top: 44%;
+        display: block;
+    }
+}
+
+/* Mobile: */
+@media screen and (max-width: 569px)
+{
+    .main__about-us__hero
+    {
+        flex-direction: row;
+    }
+
+    .main__about-us__hero div
+    {
+        padding: 20rem;
+    }
+
+    .main__about-us__hero__sushi-6
+    {
+        border-right: 2rem solid var(--color-secondary);
+        border-bottom: none;
+    }
+
+    .main__about-us__hero__sushi-6 img,
+    .main__about-us__hero__sushi-7 img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .main__about-us__hero__button
+    {
+        display: none;
+    }
+
+    .main__about-us__content
+    {
+        padding: 8rem;
+    }
+}
+
+/* Join Us: */
+/* Screens: */
+/* Desktop: */
+@media screen and (max-width: 1024px)
+{
+    .main__join-us
+    {
+        background-size: cover;
+    }
+}
+
+/* Mobile: */
+@media screen and (max-width: 569px)
+{
+    .main__join-us
+    {
+        padding: 8rem;
+    }
+
+    .main__join-us h2
+    {
+        font-size: 64rem;
+        line-height: 68rem;
+    }
+
+    .main__join-us__form
+    {
+        border: none;
+        border-radius: 20rem;
+        padding: 0rem;
+        min-width: 100%;
+        flex-direction: column;
+        gap: 20rem;
+    }
+
+    .main__join-us__form input
+    {
+        border: 2rem solid rgba(255, 255, 255, 0.40);
+        border-color: var(--color-senary);
+        border-radius: 40rem;
+        padding: 10rem 20rem;
+        min-height: 40rem;
+    }
+
+    .main__join-us__form button
+    {
+        min-width: 100%;
+    }
+}
+
+/* Footer: */
+/* Screens: */
+/* Tablet: */
+@media screen and (max-width: 960px)
+{
+    .footer
+    {
+        display: none;
+    }
+}
+
+/* Screens: */
+/* Mobile: */
+.title
+{
+    font-size: 32rem;
+    font-weight: 400;
+}

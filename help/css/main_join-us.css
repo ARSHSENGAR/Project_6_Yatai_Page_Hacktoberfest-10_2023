@@ -1,0 +1,80 @@
+/* Styles: */
+/* Main: */
+/* Join Us: */
+.main__join-us
+{
+    padding: 20rem;
+    overflow: hidden;
+    flex-direction: column;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--color-primary);
+    background-image: url('../../assets/join-us_background.png');
+}
+
+.main__join-us h2
+{
+    font-size: 40rem;
+    font-weight: 800;
+    font-family: var(--macondo);
+    text-align: center;
+    color: var(--color-senary);
+    line-height: 128rem;
+}
+  
+.main__join-us p
+{
+    margin: 20rem 0rem;
+    font-size: 20rem;
+    font-weight: 400;
+    font-family: var(--macondo);
+    color: rgba(255, 255, 255, 0.40);
+    line-height: 24rem;
+}
+
+/* Form: */
+.main__join-us__form
+{
+    margin: 20rem 0rem;
+    border: 2rem solid rgba(255, 255, 255, 0.40);
+    border-radius: 40rem;
+    padding: 10rem 10rem 10rem 20rem;
+    min-width: 400rem;
+    display: flex;
+    gap: 20rem;
+}
+
+.main__join-us__form input
+{
+    border: none;
+    outline: none;
+    flex: 1;
+    background: transparent;
+    font-size:  16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.main__join-us__form input::placeholder
+{
+    color: var(--color-senary);
+    opacity: 0.40;
+}
+
+.main__join-us__form button
+{
+    border: none;
+    border-radius: 40rem;
+    outline: none;
+    padding: 20rem;
+    min-width: 100rem;
+    text-align: center;
+    background: var(--color-quinary);
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    color: var(--color-senary);
+    cursor: pointer;
+}

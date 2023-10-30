@@ -1,0 +1,199 @@
+/* Styles: */
+/* Main: */
+/* Home: */
+.main__home
+{
+    min-height: calc(100vh - 60vh);
+    overflow: hidden;
+    display: flex;
+}
+
+/* Hero: */
+.main__home__hero
+{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.main__home__hero img
+{
+    width: 140%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main__home__hero h3
+{
+    padding: 20rem;
+    position: absolute;
+    bottom: 0rem;
+    font-size: 96rem;
+    font-weight: 800;
+    font-family: var(--shojumaru);
+    color: var(--color-senary);
+    line-height: 100rem;
+}
+
+/* Overlay: */
+.main__home__hero__overlay
+{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    inset: 0rem;
+    background-color: var(--color-primary);
+}
+
+/* Content: */
+.main__home__content
+{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Information: */
+.main__home__content__info
+{
+    padding: 10rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__home__content__info h2
+{
+    margin: 40rem 0rem;
+    padding-left: 100rem;
+    font-size: 32rem;
+    font-weight: 400;
+    font-family: var(--shojumaru);
+    color: var(--color-tertiary);
+}
+
+.main__home__content__info p
+{
+    margin: 20rem 0rem;
+    padding-left: 100rem;
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    color: var(--color-quinary);
+}
+
+/* Buttons: */
+.main__home__content__buttons
+{
+    margin: 40rem 0rem;
+    padding-left: 100rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36rem;
+}
+
+/* Order: */
+.main__home__content__button-order
+{
+    padding: 20rem;
+    border: none;
+    border-radius: 40rem;
+    outline: none;
+    min-width: 100rem;
+    background: var(--color-tertiary);
+    font-size: 16rem;
+    font-weight: 200;
+    line-height: 20rem;
+    color: var(--color-senary);
+    cursor: pointer;
+}
+
+/* Play: */
+.main__home__content__button-play
+{
+    padding: 20rem;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    font-size: 16rem;
+    font-family: var(--macondo);
+    line-height: 20rem;
+    color: var(--color-quinary);
+    cursor: pointer;
+}
+
+.main__home__content__button-play img
+{
+    margin: 0rem 20rem;
+    width: 40rem;
+    height: 40rem;
+    object-fit: contain;
+}
+
+/* Testimonial: */
+.main__home__content__testimonial
+{
+    padding: 20rem 20rem;
+    background: var(--color-senary);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20rem;
+}
+
+/* Customer: */
+.main__home__content__testimonial__customer
+{
+    flex: 1;
+    gap: 20rem;
+}
+
+.main__home__content__testimonial__customer h4
+{
+    font-size: 32rem;
+    font-weight: 400;
+    font-family: var(--shojumaru)
+}
+
+.main__home__content__testimonial__customer p
+{
+    font-size: 16rem;
+    font-weight: 400;
+    font-family: var(--macondo);
+    color: var(--color-quinary);
+    opacity: 0.60;
+}
+
+/* Review: */
+.main__home__content__testimonial__review
+{
+    padding-left: 20rem;
+    border-left: 2rem solid rgba(0, 0, 0, 0.20);
+    min-width: 200rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 20rem;
+}
+
+.main__home__content__testimonial__review img
+{
+    width: 60rem;
+    height: 60rem;
+    object-fit: contain;
+}
+
+.main__home__content__testimonial__review p
+{
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    color: var(--color-quinary);
+    opacity: 0.60;
+    line-height: 20rem;
+}

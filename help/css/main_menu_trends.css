@@ -1,0 +1,179 @@
+/* Styles: */
+/* Main: */
+/* Menu: */
+/* Trends: */
+.main__menu__trends
+{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Foods and Drinks: */
+.main__menu__trends__foods,
+.main__menu__trends__drinks
+{
+    width: 100%;
+    min-height: 600rem;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Content: */
+.main__menu__trends__content
+{
+    padding: 20rem 20rem;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* List: */
+.main__menu__trends__list
+{
+    flex-wrap: wrap;
+    gap: 20rem;
+    list-style: none;
+}
+
+.main__menu__trends__list li
+{
+    min-width: 200rem;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+}
+
+.main__menu__trends__list p
+{
+    flex: 1;
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    color: var(--color-quinary);
+}
+
+/* Icon: */
+.main__menu__trends__icon
+{
+    border-radius: 100%;
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--color-primary);
+}
+
+.main__menu__trends__icon img
+{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+/* Hero: */
+.main__menu__trends__hero
+{
+    padding: 20rem 20rem;
+    position: relative;
+    flex: 1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--color-senary);
+}
+  
+.main__menu__trends__foods.main__menu__trends__hero
+{
+    background-image: url("../../assets/food_sushi-5.png");
+}
+
+.main__menu__trends__drinks.main__menu__trends__hero
+{
+    background-image: url("../../assets/food_sake.png");
+}
+
+.main__menu__trends__hero img
+{
+    width: 300rem;
+    height: 300rem;
+    object-fit: contain;
+}
+
+/* Arrows: */
+.main__menu__trends__arrow
+{
+    position: absolute;
+    z-index: 1;
+}
+
+.main__menu__trends__arrow img
+{
+    object-fit: contain;
+}
+
+.main__menu__trends__arrow-top
+{
+    top: -3rem;
+    left: 3%;
+}
+
+.main__menu__trends__arrow-top img,
+.main__menu__trends__arrow-left img
+{
+    width: auto;
+    height: 100%;
+}
+
+.main__menu__trends__arrow-right
+{
+    right: -3rem;
+    bottom: 12%;
+}
+
+.main__menu__trends__arrow-right img,
+.main__menu__trends__arrow-bottom img
+{
+    width: 100%;
+    height: auto;
+}
+
+.main__menu__trends__arrow-left
+{
+    top: 10%;
+    left: -3rem;
+}
+
+.main__menu__trends__arrow-bottom
+{
+    right: 2%;
+    bottom: -3rem;
+}
+
+/* Discover: */
+.main__menu__trends__discover
+{
+    border-radius: 100%;
+    width: 160rem;
+    height: 160rem;
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-quinary);
+    cursor: pointer;
+}
+
+.main__menu__trends__discover p
+{
+    font-size: 16rem;
+    font-weight: 200;
+    font-family: var(--macondo);
+    text-transform: uppercase;
+    color: var(--color-senary);
+}

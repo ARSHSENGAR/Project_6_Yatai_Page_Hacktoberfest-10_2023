@@ -40,7 +40,12 @@ This is my fifth project as an aspiring Full-Stack Developer. I recently immerse
 ## Built With
 
 Tech-Stack used while building this project:
-‣ HTML ‣ CSS ‣ JavaScript ‣ Node.js ‣ Vite.js
+
+‣ HTML
+‣ CSS
+‣ JavaScript
+‣ Node.js
+‣ Vite.js
 
 ## Contributing
 
@@ -54,9 +59,13 @@ Enriching the open source community is all about the vibrant tapestry of contrib
 ### Creating A Pull Request
 
 Step: 1: Fork the Project.
-Step: 2: Create your own Feature Branch: (`git checkout -b feature/MyFeature`)
-Step: 3: Commit your changes to the Project: (`git commit -m 'Add MyFeatures'`)
-Step: 4: Push to your own Branch: (`git push origin feature/MyFeature`)
+
+Step: 2: Create your own Feature Branch: (`git checkout -b feature/MyFeature`).
+
+Step: 3: Commit your changes to the Project: (`git commit -m 'Add MyFeatures'`).
+
+Step: 4: Push to your own Branch: (`git push origin feature/MyFeature`).
+
 Step: 5: Open up a Pull Request.
 
 Optional Step: Watch my [Tutorial](https://www.youtube.com/watch?v=vPrBMK5860o).

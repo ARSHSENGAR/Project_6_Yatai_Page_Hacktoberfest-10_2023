@@ -35,7 +35,7 @@
 
 ![Screen Shot](https://i.ibb.co/KbVy4ph/Project-6-Yatai-Page.png)
 
-This is my fifth project as an aspiring Full-Stack Developer. I recently immersed myself in the exquisite world of authentic Japanese hospitality and culinary delights at a nearby restaurant. Inspired by the challenges faced by burgeoning startup cuisines, I embarked on a journey to craft a cutting-edge UI/UX design for a landing page that transcends borders, capturing the essence of any food chain's unique appeal worldwide. With a fervent commitment to mastering the intricacies of HTML, CSS and JavaScript, I proudly present Yatai. An impeccably responsive landing page, meticulously tailored to elevate the presence of every emerging culinary gem on the global stage.
+This is my sixth project as an aspiring Full-Stack Developer. I recently immersed myself in the exquisite world of authentic Japanese hospitality and culinary delights at a nearby restaurant. Inspired by the challenges faced by burgeoning startup cuisines, I embarked on a journey to craft a cutting-edge UI/UX design for a landing page that transcends borders, capturing the essence of any food chain's unique appeal worldwide. With a fervent commitment to mastering the intricacies of HTML, CSS and JavaScript, I proudly present Yatai. An impeccably responsive landing page, meticulously tailored to elevate the presence of every emerging culinary gem on the global stage.
 
 ## Built With
 

@@ -13,7 +13,7 @@
     <a href="https://github.com/ARSHSENGAR/Project_6_Yatai_Page_Hacktoberfest-10_2023"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/ARSHSENGAR/Project_6_Yatai_Page_Hacktoberfest-10_2023">View Demo</a>
+    <a href="https://arshsengar.github.io/Project_6_Yatai_Page_Hacktoberfest-10_2023/">View Demo</a>
     .
     <a href="https://github.com/ARSHSENGAR/Project_6_Yatai_Page_Hacktoberfest-10_2023/issues">Report Bug</a>
     .
